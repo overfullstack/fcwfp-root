@@ -2,6 +2,15 @@
 
 This is used for demonstration in this talk: [Fight Complexity with Functional Programming](https://overfullstack.github.io/my-talks/#Fight-Complexity-with-Functional-Programming-Kotlin)
 
+## See in Action
+
+It's a simple Gradle project, so run this command after clone:
+
+[source,bash]
+----
+./gradlew clean build
+----
+
 ## License
 <a rel="license" href="https://opensource.org/licenses/MIT">
 <img alt="MIT License"

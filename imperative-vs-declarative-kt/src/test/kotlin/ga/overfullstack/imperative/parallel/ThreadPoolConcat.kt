@@ -4,12 +4,12 @@ package ga.overfullstack.imperative.parallel
 import ga.overfullstack.common.EXPECTED_RESULT
 import ga.overfullstack.common.TEAM
 import ga.overfullstack.imperative.ImperativeConcat.Companion.concatLastNames
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.Test
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.Executors
 import java.util.concurrent.Future
 import java.util.concurrent.TimeUnit
-import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.Test
 
 class ThreadPoolConcat {
   @Test
@@ -52,7 +52,7 @@ class ThreadPoolConcat {
         }
       }
 
-      // Deal with last left-out segment
+      // Deal with the last left-out segment
       if (offset < team.size) {
         results.add(concatLastNames(team.subList(team.size - segmentLen, team.size)))
       }
