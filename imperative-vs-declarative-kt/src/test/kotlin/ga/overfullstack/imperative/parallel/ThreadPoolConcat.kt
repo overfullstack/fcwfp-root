@@ -4,12 +4,12 @@ package ga.overfullstack.imperative.parallel
 import ga.overfullstack.common.EXPECTED_RESULT
 import ga.overfullstack.common.TEAM
 import ga.overfullstack.imperative.ImperativeConcat.Companion.concatLastNames
-import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.Test
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.Executors
 import java.util.concurrent.Future
 import java.util.concurrent.TimeUnit
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.Test
 
 class ThreadPoolConcat {
   @Test

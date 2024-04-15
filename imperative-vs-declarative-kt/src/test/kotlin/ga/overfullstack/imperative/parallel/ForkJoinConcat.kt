@@ -5,9 +5,9 @@ import com.google.common.truth.Truth.assertThat
 import ga.overfullstack.common.EXPECTED_RESULT
 import ga.overfullstack.common.TEAM
 import ga.overfullstack.imperative.ImperativeConcat.Companion.concatLastNames
-import org.junit.jupiter.api.Test
 import java.util.concurrent.ForkJoinPool
 import java.util.concurrent.RecursiveTask
+import org.junit.jupiter.api.Test
 
 internal class MyRecursiveTask(private val team: List<String?>?) : RecursiveTask<String>() {
   override fun compute(): String =
