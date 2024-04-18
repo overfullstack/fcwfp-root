@@ -13,10 +13,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "fcwfp-root"
 
-include("imperative-vs-declarative-kt")
-
-include("railway-oriented-programming-kt")
-
 include("imperative-vs-declarative")
 
-include("railway-oriented-programming")
+include("imperative-vs-declarative-kt")
+
+include("railway-oriented-validation")
+
+include("railway-oriented-validation-kt")
