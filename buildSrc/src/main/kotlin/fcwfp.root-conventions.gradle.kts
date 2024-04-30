@@ -6,8 +6,6 @@ plugins {
   id("com.autonomousapps.dependency-analysis")
   id("com.diffplug.spotless")
   id("com.adarshr.test-logger")
-  id("io.gitlab.arturbosch.detekt")
-  id("com.github.spotbugs") apply false
 }
 
 version = "1.0.0"
@@ -48,13 +46,6 @@ spotless {
     indentWithSpaces(2)
     endWithNewline()
   }
-}
-
-detekt {
-  parallel = true
-  buildUponDefaultConfig = true
-  baseline = file("$rootDir/detekt/baseline.xml")
-  config.setFrom(file("$rootDir/detekt/config.yml"))
 }
 
 testlogger {
