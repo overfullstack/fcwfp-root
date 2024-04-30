@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
   application
   id("org.jetbrains.kotlinx.kover")
@@ -15,6 +13,3 @@ testing {
   }
 }
 
-tasks.withType<KotlinCompile>().configureEach {
-  compilerOptions { freeCompilerArgs.add("-opt-in=kotlin.ExperimentalStdlibApi") }
-}
