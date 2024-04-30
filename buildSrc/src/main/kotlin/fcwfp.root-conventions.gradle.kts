@@ -3,6 +3,7 @@ import com.diffplug.spotless.LineEnding.PLATFORM_NATIVE
 
 plugins {
   java
+  id("com.autonomousapps.dependency-analysis")
   id("com.diffplug.spotless")
   id("com.adarshr.test-logger")
   id("io.gitlab.arturbosch.detekt")
@@ -13,7 +14,7 @@ version = "1.0.0"
 
 group = "ga.overfullstack"
 
-description = "My Lab"
+description = "Fight Complexity with Functional Programming"
 
 spotless {
   lineEndings = PLATFORM_NATIVE
@@ -60,10 +61,4 @@ testlogger {
   theme = MOCHA_PARALLEL
   showCauses = false
   showSimpleNames = true
-}
-
-tasks {
-  spotbugsMain.get().enabled = false
-  spotbugsTest.get().enabled = false
-  spotbugs.ignoreFailures.set(true)
 }
