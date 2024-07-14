@@ -9,7 +9,7 @@ plugins {
 
 dependencies { subprojects.forEach { kover(project(":${it.name}")) } }
 
-koverReport { defaults { html { onCheck = true } } }
+kover { reports { total { html { onCheck = true } } } }
 
 allprojects {
   repositories {
