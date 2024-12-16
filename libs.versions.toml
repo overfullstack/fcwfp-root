@@ -38,7 +38,7 @@ pprint = "2.0.2"
 dependency-analysis = "2.6.1"
 
 # Common dependencies
-junit = "5.11.3"
+junit = "5.11.4"
 kover = "0.9.0"
 kotest = "5.9.1"
 assertj-core = "3.26.3"
