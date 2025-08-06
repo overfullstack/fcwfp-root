@@ -33,7 +33,7 @@ spring-dependency-management = "1.1.7"
 spring-boot = "3.5.4"
 okio = "3.16.0"
 rabbitmq-client = "5.26.0"
-kotlin-logging = "7.0.11"
+kotlin-logging = "7.0.12"
 pprint = "3.0.0"
 dependency-analysis = "2.19.0"
 
