@@ -35,7 +35,7 @@ okio = "3.16.0"
 rabbitmq-client = "5.26.0"
 kotlin-logging = "7.0.13"
 pprint = "3.0.0"
-dependency-analysis = "3.0.0"
+dependency-analysis = "3.0.1"
 
 # Common dependencies
 junit = "5.13.4"
