@@ -1,6 +1,6 @@
 [versions]
 jdk = "21"
-kotlin = "2.2.10"
+kotlin = "2.2.20"
 ksp = "2.2.10-2.0.2"
 kotlinx-coroutines-core = "1.10.2"
 hamcrest-core = "3.0"
@@ -35,7 +35,7 @@ okio = "3.16.0"
 rabbitmq-client = "5.26.0"
 kotlin-logging = "7.0.13"
 pprint = "3.0.0"
-dependency-analysis = "3.0.1"
+dependency-analysis = "3.0.2"
 
 # Common dependencies
 junit = "5.13.4"
