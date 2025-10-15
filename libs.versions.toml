@@ -40,7 +40,7 @@ dependency-analysis = "3.1.0"
 # Common dependencies
 junit = "5.14.0"
 kover = "0.9.2"
-kotest = "6.0.3"
+kotest = "6.0.4"
 assertj-core = "3.27.6"
 truth = "1.4.5"
 detekt = "1.23.8"
