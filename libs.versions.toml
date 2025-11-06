@@ -1,7 +1,7 @@
 [versions]
 jdk = "21"
 kotlin = "2.2.21"
-ksp = "2.3.1"
+ksp = "2.3.2"
 kotlinx-coroutines-core = "1.10.2"
 hamcrest-core = "3.0"
 hamcrest-date = "2.0.8"
